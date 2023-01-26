@@ -1,0 +1,44 @@
+{
+  "name": "dynamodb-query-helper",
+  "version": "1.0.0",
+  "description": "A quick and easy way to use Amazon DynamoDB in your projects",
+  "main": "dist/dynamodb-query-helper.cjs.js",
+  "module": "dist/dynamodb-query-helper.esm.js",
+  "browser": "dist/dynamodb-query-helper.umd.js",
+  "scripts": {
+    "dev": "rollup -c -w",
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ian-ph/dynamodb-query-helper.git"
+  },
+  "keywords": [
+    "AWS",
+    "dynamoDB",
+    "dynamo-db",
+    "dynamo db",
+    "helper",
+    "query"
+  ],
+  "author": "Christian Martin <ian@outlook.ph>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ian-ph/dynamodb-query-helper/issues"
+  },
+  "homepage": "https://github.com/ian-ph/dynamodb-query-helper",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "eslint": "^8.32.0",
+    "rollup": "^3.11.0",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.4.1",
+    "typescript": "^4.9.4"
+  }
+}
