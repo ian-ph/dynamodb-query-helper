@@ -60,7 +60,7 @@ export class DynamodbQueryHelper {
    * @param condition string the condition to use for filtering
    * @param value string The value to use for filtering
    * @param indexName string The name of index to use, leaving this empty will default to the table's primary key
-   * @returns
+   * @returns DynamodbQueryHelper
    */
   public whereKey (column: string, condition: string, value: string): DynamodbQueryHelper {
     this.keyExpressions.push({
